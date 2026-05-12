@@ -12,32 +12,10 @@ This extension adds the `/play-2048` command and opens the game in a same-window
 
 ## Usage
 
-### One-off run
-
-```bash
-pi -e ~/Documents/pi-2048
-```
-
 ### Install from GitHub
 
 ```bash
 pi install https://github.com/brendengourley/pi-2048
-```
-
-### Install as a local package
-
-```bash
-pi install ~/Documents/pi-2048
-```
-
-### Add as a local extension path in settings
-
-Add this directory to `~/.pi/agent/settings.json`:
-
-```json
-{
-  "extensions": ["/Users/brenden.gourley/Documents/pi-2048"]
-}
 ```
 
 ## Command
